@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>PetCare - Responsive Pet Adoption</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header class="header">
+
+        <div class="container nav-container">
+
+            <h1 class="logo">PetCare</h1>
+
+            <nav class="navbar">
+                <a href="#home">Home</a>
+                <a href="#pets">Pets</a>
+                <a href="#about">About</a>
+                <a href="#contact">Contact</a>
+            </nav>
+
+        </div>
+
+    </header>
+
+
+    <!-- Main Content -->
+    <main>
+
+        <!-- Hero Section -->
+        <section class="hero" id="home">
+
+            <div class="container hero-content">
+
+                <div class="hero-text">
+
+                    <h2>Find Your Perfect Companion</h2>
+
+                    <p>
+                        Give a loving pet a happy home.
+                        Explore our available pets and find
+                        your new best friend.
+                    </p>
+
+                    <a href="#pets" class="btn">
+                        View Pets
+                    </a>
+
+                </div>
+
+
+                <div class="hero-image">
+
+                    <div class="pet-illustration">
+                        🐶 🐱
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- Features Section -->
+        <section class="features">
+
+            <div class="container">
+
+                <h2 class="section-title">
+                    Why Adopt?
+                </h2>
+
+
+                <div class="feature-grid">
+
+                    <div class="feature-card">
+
+                        <div class="icon">❤️</div>
+
+                        <h3>Give Love</h3>
+
+                        <p>
+                            Provide a caring and loving
+                            environment for a pet.
+                        </p>
+
+                    </div>
+
+
+                    <div class="feature-card">
+
+                        <div class="icon">🏠</div>
+
+                        <h3>Give a Home</h3>
+
+                        <p>
+                            Help pets find a safe and
+                            comfortable forever home.
+                        </p>
+
+                    </div>
+
+
+                    <div class="feature-card">
+
+                        <div class="icon">🐾</div>
+
+                        <h3>Make a Friend</h3>
+
+                        <p>
+                            Build a special bond with
+                            your new companion.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- Pets Section -->
+        <section class="pets" id="pets">
+
+            <div class="container">
+
+                <h2 class="section-title">
+                    Available Pets
+                </h2>
+
+
+                <div class="pet-grid">
+
+                    <!-- Pet 1 -->
+                    <article class="pet-card">
+
+                        <div class="pet-image">
+                            🐶
+                        </div>
+
+                        <div class="pet-info">
+
+                            <h3>Tommy</h3>
+
+                            <p>
+                                Labrador • 2 Years
+                            </p>
+
+                            <button>
+                                Adopt Me
+                            </button>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- Pet 2 -->
+                    <article class="pet-card">
+
+                        <div class="pet-image">
+                            🐕
+                        </div>
+
+                        <div class="pet-info">
+
+                            <h3>Bruno</h3>
+
+                            <p>
+                                Beagle • 3 Years
+                            </p>
+
+                            <button>
+                                Adopt Me
+                            </button>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- Pet 3 -->
+                    <article class="pet-card">
+
+                        <div class="pet-image">
+                            🐱
+                        </div>
+
+                        <div class="pet-info">
+
+                            <h3>Luna</h3>
+
+                            <p>
+                                Persian Cat • 1 Year
+                            </p>
+
+                            <button>
+                                Adopt Me
+                            </button>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- Pet 4 -->
+                    <article class="pet-card">
+
+                        <div class="pet-image">
+                            🐈
+                        </div>
+
+                        <div class="pet-info">
+
+                            <h3>Max</h3>
+
+                            <p>
+                                Domestic Cat • 2 Years
+                            </p>
+
+                            <button>
+                                Adopt Me
+                            </button>
+
+                        </div>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- About Section -->
+        <section class="about" id="about">
+
+            <div class="container about-content">
+
+                <div>
+
+                    <h2>
+                        About PetCare
+                    </h2>
+
+                    <p>
+                        PetCare is a simple pet adoption
+                        platform designed to connect
+                        loving families with pets looking
+                        for a home.
+                    </p>
+
+                </div>
+
+
+                <div class="about-box">
+
+                    <strong>100+</strong>
+
+                    <span>
+                        Pets Helped
+                    </span>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- Footer -->
+    <footer class="footer" id="contact">
+
+        <div class="container">
+
+            <h3>PetCare</h3>
+
+            <p>
+                Every pet deserves a loving home.
+            </p>
+
+            <p class="copyright">
+                © 2026 PetCare. All Rights Reserved.
+            </p>
+
+        </div>
+
+    </footer>
+
+</body>
+</html>
